@@ -15,3 +15,4 @@ Parser.c:	Parser.y Lexer.c
 
 clean:
 		rm -f *.o *~ Lexer.c Lexer.h Parser.c Parser.h test
+		rm -rf test.dSYM
