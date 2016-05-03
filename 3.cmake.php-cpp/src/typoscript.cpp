@@ -19,7 +19,7 @@ Php::Value hello(Php::Parameters &params)
 {
     string first = params[0];
     string last = params[1];
-    return first + " Alexander " + last;
+    return first + "  " + last;
 }
 
 Php::Value sumAll(Php::Parameters &parameters)
